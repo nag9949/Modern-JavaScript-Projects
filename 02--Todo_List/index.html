@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo-List</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- header -->
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">Todo List</h1>
+      <form class="search">
+        <input type="text" name="search" class="form-control m-auto" placeholder="search todos">
+      </form>
+    </header>
+
+    <!-- todo-lists -->
+    <ul class="list-group todos mx-auto text-info">
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>learn new skills</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>do what you love</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>stay healthy and be positive</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+
+    </ul>
+
+    <!-- add-todo -->
+    <form class="addTodo text-center my-4">
+      <label class="text-light">Add a new todo....</label>
+      <input type="text" name="add" class="form-control m-auto">
+    </form>
+
+
+
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

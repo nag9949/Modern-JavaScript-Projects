@@ -1,0 +1,26 @@
+*:focus {
+  box-shadow: none !important;
+  border: 1px solid #08cae4 !important;
+}
+
+body {
+  /* background: #2f4f5b; */
+  background: #117281;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  max-width: 400px;
+  border: none;
+  color: white;
+  background: rgb(31, 72, 82);
+  /* background: rgb(97, 93, 93); */
+}
+
+.filtered {
+  display: none !important;
+}
