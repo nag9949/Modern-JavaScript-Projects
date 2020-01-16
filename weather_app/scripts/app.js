@@ -73,4 +73,15 @@ cityForm.addEventListener('submit', e => {
     .then(data => updateUI(data))
     .catch(err => console.log(err));
 
+  // adding local-storage feature
+  localStorage.setItem('city', city);
+
 });
+
+// by default we are retriving the some city weather-info by using local-storage
+if (localStorage.getItem('city')) {
+  updateCity(localStorage.getItem('city'))
+    .then(data => updateUI(data))
+    .catch(err => console.log(err));
+
+}
