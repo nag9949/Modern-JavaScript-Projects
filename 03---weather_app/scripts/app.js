@@ -10,6 +10,7 @@ const icon = document.querySelector('.icon img');
 
 //.... updateUI
 const updateUI = (data) => {
+	console.log(data);
 
   //,,,,,,,Destructure the properties
   const {
