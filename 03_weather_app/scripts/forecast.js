@@ -1,7 +1,7 @@
 //only weather-api logic is availablehere 
 // accWeather-api-key = 	zeVcsmZU3PgQO7GeZfEJd21f2mtM8hXv
 
-const key = '	zeVcsmZU3PgQO7GeZfEJd21f2mtM8hXv';
+const key = 'uBlqt74I3c51FGMv4TbBmU4ilwAurerQ';
 
 //....Get the Weather-info
 const getWeather = async (id) => {
