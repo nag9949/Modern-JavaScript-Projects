@@ -34,7 +34,6 @@ const updateUI = (data) => {
 
   // update the day/night imgaes
   let timeSource = weatherDetails.IsDayTime ? 'img/day.svg' : 'img/night.svg';
-
   time.setAttribute('src', timeSource);
 
   //......remove the d-none class if it is present in card cls

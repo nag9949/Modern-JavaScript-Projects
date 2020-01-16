@@ -1,5 +1,5 @@
 //only weather-api logic is availablehere 
-// accWeather-api-key = 	zeVcsmZU3PgQO7GeZfEJd21f2mtM8hXv
+// accWeather-api-key = 	uBlqt74I3c51FGMv4TbBmU4ilwAurerQ
 
 const key = 'uBlqt74I3c51FGMv4TbBmU4ilwAurerQ';
 
