@@ -6,11 +6,13 @@ const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
 
+const forecast = new Forecast();
 
 
 //.... updateUI
 const updateUI = (data) => {
-	console.log(data);
+
+  console.log(data); // city and weather data obj 
 
   //,,,,,,,Destructure the properties
   const {
@@ -46,20 +48,6 @@ const updateUI = (data) => {
 };
 
 
-//....updateCity
-const updateCity = async (city) => {
-
-  const cityDetails = await getCity(city);
-  const weatherDetails = await getWeather(cityDetails.Key);
-
-  return {
-    cityDetails,
-    weatherDetails
-  };
-
-};
-
-
 cityForm.addEventListener('submit', e => {
   // prevent the default action-(Refreshing the page)
   e.preventDefault();
@@ -69,18 +57,19 @@ cityForm.addEventListener('submit', e => {
   cityForm.reset();
 
   // update the ui with new city-value
-  updateCity(city)
+  forecast.updateCity(city)
     .then(data => updateUI(data))
     .catch(err => console.log(err));
+
 
   // adding local-storage feature
   localStorage.setItem('city', city);
 
 });
 
-// by default we are retriving the some city weather-info by using local-storage
+// by default we get the some city weather-info by using local-storage
 if (localStorage.getItem('city')) {
-  updateCity(localStorage.getItem('city'))
+  forecast.updateCity(localStorage.getItem('city'))
     .then(data => updateUI(data))
     .catch(err => console.log(err));
 
