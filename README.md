@@ -9,7 +9,14 @@ my first html5 and css3 and JavaScript project.
 -----------------------------------------------------------------------------------------------------------------------------------------
 02---Todo_List
 
-my first todo-list project used tech stack html5,css3 and Js. 
+my first todo-list project used tech-stack html5,css3 and Js. 
 
 02-Website----> https://my-task-list.netlify.com
 -----------------------------------------------------------------------------------------------------------------------------------------
+TypeWritter_Effect
+
+tech-stack html5,css3 and Js. 
+
+Website----> https://typewrittereffect.netlify.com
+-----------------------------------------------------------------------------------------------------------------------------------------
+
