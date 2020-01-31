@@ -15,7 +15,7 @@ my first todo-list project used tech-stack html5,css3 and Js.
 -----------------------------------------------------------------------------------------------------------------------------------------
 TypeWritter_Effect
 
-tech-stack html5,css3 and Js. 
+tech-stack:- html5,css3 and Js. 
 
 Website----> https://typewrittereffect.netlify.com
 -----------------------------------------------------------------------------------------------------------------------------------------
