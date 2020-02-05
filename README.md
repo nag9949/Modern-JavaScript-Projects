@@ -6,6 +6,7 @@ all my JavaScript projects are available here :)
 my first html5 and css3 and JavaScript project. 
 
 01-Website----> https://my-quizapp.netlify.com
+                https://nag9949.github.io/Modern-JavaScript-Projects/01---quiz_app/
 -----------------------------------------------------------------------------------------------------------------------------------------
 02---Todo_List
 
