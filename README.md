@@ -23,8 +23,8 @@ tech-stack:- html5,css3 and Js.
 -----------------------------------------------------------------------------------------------------------------------------------------
 04---weather_app
 
-tech-stack:- html5,css3 and Js. (not getting data due to third party api key was used netlify and github pages are Blocking 
-                                  insecure resources).
+tech-stack:- html5,css3 and Js. (not getting data due to third party api key was used in this app . 
+                                  netlify and github pages are Blocking  insecure resources).
                                   
 03-Website----> https://nag9949.github.io/Modern-JavaScript-Projects/04---weather_app/
 -----------------------------------------------------------------------------------------------------------------------------------------
