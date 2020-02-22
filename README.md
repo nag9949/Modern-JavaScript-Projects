@@ -20,12 +20,4 @@ my first todo-list project used tech-stack html5,css3 and Js.
 tech-stack:- html5,css3 and Js. 
 
 03-Website----> https://typewrittereffect.netlify.com
------------------------------------------------------------------------------------------------------------------------------------------
-04---weather_app
-
-tech-stack:- html5,css3 and Js. (not getting data due to third party api key was used in this app . 
-                                  netlify and github pages are Blocking  insecure resources).
-                                  
-04-Website----> https://nag9949.github.io/Modern-JavaScript-Projects/04---weather_app/
------------------------------------------------------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------------------------------------------
