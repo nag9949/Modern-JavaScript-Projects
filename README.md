@@ -1,5 +1,6 @@
 # Modern-JavaScript-Projects
-all my JavaScript projects are available here :)
+ 
+ -> Tutorial HELL :(
 
 01---quiz_app
 
